@@ -1,9 +1,9 @@
 # AIOT
 ###### tags: `project`
 # features:
-- 由colab訓練model(colab)
-- 在RaspBerryPi上inference(Pi)
-- 自動擷取/標註圖片並存入資料庫(PC)，準備下一輪的模型更新
+- 由colab訓練model (colab)
+- 在RaspBerryPi上inference (Pi)
+- 自動將edge端收集到的資料回傳PC並存入資料庫裡(PC)，準備下一輪的模型更新
 - [demo video: yolo_face_detection on RaspBerryPi](https://youtu.be/a82ucVpd3Bo)
 - [learning note](https://github.com/PYChih/AIOT_note)
 # workflow
