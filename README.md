@@ -1,11 +1,12 @@
 # AIOT
 ###### tags: `project`
-# 說明:
-- 由colab訓練model
-- 在RaspBerryPi上inference
-- 自動擷取/標註圖片並存入資料庫，準備下一輪的模型更新
+# features:
+- 由colab訓練model(colab)
+- 在RaspBerryPi上inference(Pi)
+- 自動擷取/標註圖片並存入資料庫(PC)，準備下一輪的模型更新
+- [demo video: yolo_face_detection on RaspBerryPi](https://youtu.be/a82ucVpd3Bo)
 - [learning note](https://github.com/PYChih/AIOT_note)
-# 流程
+# workflow
 1. training data
 2. data preprocessing
 3. train model
@@ -18,7 +19,6 @@
 ## 1_training_data
 - 說明: 想辦法取得任務data
     - 這邊使用[fddb](http://vis-www.cs.umass.edu/fddb/)訓練基本的人臉檢測model
-    - [demo video: yolo_face_detection](https://youtu.be/a82ucVpd3Bo)
 ## 2_data_preprocessing
 - 說明: 清理data成需要的格式
     - 清理任務寫成sh讓復現變得容易
@@ -33,7 +33,7 @@
 ## 4_model_evaluation_test
 - [demo code: yolo_inference_imshow.py](https://github.com/chihpy/AIOT/blob/main/final_project/Pi/yolo_inference_imshow.py)
     - [demo video: yolo person detection](https://youtu.be/Sf4ilZJCtQ4)
-- [ ] 把mAP講清楚
+- [ ] mAP
 ## 5_flaskWeb_on_Pi
 - 說明: 將Pi上的資料丟到Web上
     - pi_flask.py
