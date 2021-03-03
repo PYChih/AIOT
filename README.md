@@ -2,9 +2,9 @@
 ###### tags: `project`
 # 說明:
 - 由colab訓練model
-- 放到RaspBerryPi上inference
+- 在RaspBerryPi上inference
 - 自動擷取/標註圖片並存入資料庫，準備下一輪的模型更新
-- [learning note]()
+- [learning note](https://github.com/PYChih/AIOT_note)
 # 流程
 1. training data
 2. data preprocessing
